@@ -1,0 +1,141 @@
+
+zyh@LAPTOP-H1J5ISFE:~$ source ~/miniconda3/bin/activate
+(DL_DiReCT) zyh@LAPTOP-H1J5ISFE:~$ dl+direct --subject 2 --bet ~/t1_input.nii.gz ~/2
+
+If you are using DL+DiReCT in your research, please cite:
+        Rebsamen, M, Rummel, C, Reyes, M, Wiest, R, McKinley, R.
+        Direct cortical thickness estimation using deep learning‐based anatomy segmentation and cortex parcellation.
+        Human brain mapping. 2020; 41: 4804-4814. https://doi.org/10.1002/hbm.25159
+
+
+Input: (1.0, 1.0, 1.0) [LIA]
+WARNING: No GPU/CUDA device found. Running on CPU might take some time...
+Brain extraction using HD-BET [https://doi.org/10.1002/hbm.24750] ...
+No GPU found. Running hd-bet in fast mode, check results! Make sure you have enough memory.
+File: /home/zyh/2/T1w_norm.nii.gz
+preprocessing...
+image shape after preprocessing:  (171, 171, 171)
+prediction (CNN id)...
+0
+running postprocessing...
+exporting segmentation...
+loading checkpoint /home/zyh/DL-DiReCT/src/../model/v0_f1.pth
+Axis 0.............
+Axis 1...............
+Axis 2.................
+DONE predicting
+Running DiReCT for 3-dimensional images.
+
+  Iteration 1 (of 45).  Current energy = 0.997014.
+  Iteration 2 (of 45).  Current energy = 0.861114.
+  Iteration 3 (of 45).  Current energy = 0.784872.
+  Iteration 4 (of 45).  Current energy = 0.743883.
+  Iteration 5 (of 45).  Current energy = 0.718704.
+  Iteration 6 (of 45).  Current energy = 0.703789.
+  Iteration 7 (of 45).  Current energy = 0.693731.
+  Iteration 8 (of 45).  Current energy = 0.687933.
+  Iteration 9 (of 45).  Current energy = 0.682825.
+  Iteration 10 (of 45).  Current energy = 0.679069.  (convergence value = 0.0213566, threshold = 0)
+  Iteration 11 (of 45).  Current energy = 0.675869.  (convergence value = 0.0116219, threshold = 0)
+  Iteration 12 (of 45).  Current energy = 0.673933.  (convergence value = 0.00666733, threshold = 0)
+  Iteration 13 (of 45).  Current energy = 0.672299.  (convergence value = 0.00409355, threshold = 0)
+  Iteration 14 (of 45).  Current energy = 0.670646.  (convergence value = 0.00265315, threshold = 0)
+  Iteration 15 (of 45).  Current energy = 0.669474.  (convergence value = 0.00182432, threshold = 0)
+  Iteration 16 (of 45).  Current energy = 0.668658.  (convergence value = 0.00130414, threshold = 0)
+  Iteration 17 (of 45).  Current energy = 0.667897.  (convergence value = 0.000969229, threshold = 0)
+  Iteration 18 (of 45).  Current energy = 0.66758.  (convergence value = 0.000711592, threshold = 0)
+  Iteration 19 (of 45).  Current energy = 0.666941.  (convergence value = 0.000531872, threshold = 0)
+  Iteration 20 (of 45).  Current energy = 0.666757.  (convergence value = 0.000396344, threshold = 0)
+  Iteration 21 (of 45).  Current energy = 0.666274.  (convergence value = 0.000305498, threshold = 0)
+  Iteration 22 (of 45).  Current energy = 0.665896.  (convergence value = 0.000235404, threshold = 0)
+  Iteration 23 (of 45).  Current energy = 0.665571.  (convergence value = 0.000182545, threshold = 0)
+  Iteration 24 (of 45).  Current energy = 0.665299.  (convergence value = 0.000148557, threshold = 0)
+  Iteration 25 (of 45).  Current energy = 0.665062.  (convergence value = 0.000125597, threshold = 0)
+  Iteration 26 (of 45).  Current energy = 0.664975.  (convergence value = 0.000106161, threshold = 0)
+  Iteration 27 (of 45).  Current energy = 0.664833.  (convergence value = 9.15133e-05, threshold = 0)
+  Iteration 28 (of 45).  Current energy = 0.664674.  (convergence value = 7.5782e-05, threshold = 0)
+  Iteration 29 (of 45).  Current energy = 0.664541.  (convergence value = 6.46358e-05, threshold = 0)
+  Iteration 30 (of 45).  Current energy = 0.664607.  (convergence value = 4.94604e-05, threshold = 0)
+  Iteration 31 (of 45).  Current energy = 0.664525.  (convergence value = 3.78933e-05, threshold = 0)
+  Iteration 32 (of 45).  Current energy = 0.664215.  (convergence value = 3.20335e-05, threshold = 0)
+  Iteration 33 (of 45).  Current energy = 0.664153.  (convergence value = 2.7984e-05, threshold = 0)
+  Iteration 34 (of 45).  Current energy = 0.664312.  (convergence value = 2.27486e-05, threshold = 0)
+  Iteration 35 (of 45).  Current energy = 0.66423.  (convergence value = 1.94407e-05, threshold = 0)
+  Iteration 36 (of 45).  Current energy = 0.663955.  (convergence value = 1.84367e-05, threshold = 0)
+  Iteration 37 (of 45).  Current energy = 0.664104.  (convergence value = 1.53725e-05, threshold = 0)
+  Iteration 38 (of 45).  Current energy = 0.664135.  (convergence value = 1.23424e-05, threshold = 0)
+  Iteration 39 (of 45).  Current energy = 0.664091.  (convergence value = 1.02225e-05, threshold = 0)
+  Iteration 40 (of 45).  Current energy = 0.664003.  (convergence value = 7.3407e-06, threshold = 0)
+  Iteration 41 (of 45).  Current energy = 0.66398.  (convergence value = 4.70707e-06, threshold = 0)
+  Iteration 42 (of 45).  Current energy = 0.6637.  (convergence value = 7.48228e-06, threshold = 0)
+  Iteration 43 (of 45).  Current energy = 0.663923.  (convergence value = 7.83418e-06, threshold = 0)
+  Iteration 44 (of 45).  Current energy = 0.663894.  (convergence value = 6.21149e-06, threshold = 0)
+  Iteration 45 (of 45).  Current energy = 0.663874.  (convergence value = 4.83666e-06, threshold = 0)
+   ImageToImageFilter (0x7f160cdda9b0)
+     RTTI typeinfo:   itk::DiReCTImageFilter<itk::Image<unsigned int, 3u>, itk::Image<float, 3u> >
+     Reference Count: 1
+     Modified Time: 506689
+     Debug: Off
+     Object Name:
+     Observers:
+       IterationEvent(Command)
+     Inputs:
+       Primary: (0x7f160fa2b3d0) *
+       _1: (0x7f160fa2b790)
+       _2: (0x7f160cd4c150)
+     Indexed Inputs:
+       0: Primary (0x7f160fa2b3d0)
+       1: _1 (0x7f160fa2b790)
+       2: _2 (0x7f160cd4c150)
+     Required Input Names: Primary
+     NumberOfRequiredInputs: 3
+     Outputs:
+       Primary: (0x7f160cd52c30)
+       _1: (0x7f160f9dd6d0)
+     Indexed Outputs:
+       0: Primary (0x7f160cd52c30)
+       1: _1 (0x7f160f9dd6d0)
+     NumberOfRequiredOutputs: 1
+     Number Of Work Units: 16
+     ReleaseDataFlag: Off
+     ReleaseDataBeforeUpdateFlag: Off
+     AbortGenerateData: Off
+     Progress: 0
+     Multithreader:
+       RTTI typeinfo:   itk::PoolMultiThreader
+       Reference Count: 1
+       Modified Time: 181
+       Debug: Off
+       Object Name:
+       Observers:
+         none
+       Number of Work Units: 16
+       Number of Threads: 4
+       Global Maximum Number Of Threads: 128
+       Global Default Number Of Threads: 4
+       Global Default Threader Type: itk::MultiThreaderBaseEnums::Threader::Pool
+       SingleMethod: 0
+       SingleData: 0
+     DynamicMultiThreading: On
+     CoordinateTolerance: 1e-06
+     DirectionTolerance: 1e-06
+     Gray matter label = 2
+     White matter label = 3
+     Maximum number of iterations = 45
+     Thickness prior estimate = 10
+     Smoothing variance = 1
+     Smoothing velocity field variance = 1.5
+     Use masked smoothing = 0
+     Number of integration points = 10
+     Maximum number of invert displacement field iterations = 20
+     Initial gradient step = 0.025
+     Current gradient step = 0.025
+     Convergence threshold = 0
+     Convergence window size = 10
+     Time smoothing variance = 1
+DiReCT elapsed time: 762.711
+Masking 2974 voxels
+mean thick: 2.123931884765625
+
+Done, you may view the results with:
+        freeview /home/zyh/2/T1w_norm.nii.gz /home/zyh/2/T1w_norm_seg.nii.gz:colormap=lut  /home/zyh/2/T1w_norm_thickmap.nii.gz:colormap=heat
