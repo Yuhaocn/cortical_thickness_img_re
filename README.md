@@ -1,5 +1,6 @@
 # cortical_thickness_img_recognition
 The goal of this experiment is to develop an algorithm to estimate cortical thickness map from a raw T1-weighted image. In this experiment I will combine diffeomorphic registration based cortical thickness (DiReCT) measure with Advanced Normalization Tools (ANTS) and DL+DiReCT, a tool combines a deep learning-based neuroanatomy segmentation and cortex parcellation with a diffeomorphic registration technique to measure cortical thickness from T1w MRI.
+
 ![2 I51U(MF36}(573RV}%)5X](https://user-images.githubusercontent.com/102940480/212444026-b99d3ffd-fdde-4327-a596-f1f81d57b38d.png)
 ![Y47N@V%MW0Y_{86SP1UPQO6](https://user-images.githubusercontent.com/102940480/212444033-89518fee-74bb-44ad-a395-ea6f7ec4509b.png)
 1.	Abstract
